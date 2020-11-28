@@ -1,0 +1,32 @@
+#root,
+html,
+body {
+  height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(
+      to right,
+      rgba(44, 44, 84, 0.7),
+      rgba(44, 44, 84, 0.7)
+    ),
+    url(./assets/newspaper-background-texture-free-min.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}

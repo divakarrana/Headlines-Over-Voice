@@ -1,0 +1,57 @@
+.how-to-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.how-to-content {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(26, 26, 59);
+  color: #f3f3f3;
+  padding: 2rem;
+  font-style: inherit;
+}
+
+.pop-title {
+  font-size: 1.8rem;
+}
+
+.smalltalk,
+.searchby,
+.read-news,
+.open-article,
+.go-back {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 2rem 1rem;
+}
+
+.pop-content {
+  font-size: 1.4rem;
+}
+
+.pop-content p {
+  margin: 1rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.close-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  color: #f3f3f3;
+  font-size: 3rem;
+  padding: 2rem;
+}

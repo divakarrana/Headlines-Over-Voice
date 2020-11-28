@@ -1,0 +1,48 @@
+.header {
+  height: 15vh;
+  display: flex;
+  background-color: rgba(44, 44, 84, 1);
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 4rem;
+  margin: 0 2rem;
+}
+
+.app-name {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-right: 1rem;
+}
+
+.sub-heading {
+  font-size: 1rem;
+  margin-left: 1rem;
+  font-style: inherit;
+  word-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
+}
+
+.nav {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
