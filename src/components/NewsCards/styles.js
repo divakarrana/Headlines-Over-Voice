@@ -4,9 +4,7 @@ const styles = makeStyles({
     container: {
         padding: '0 5%',
         width: '100%',
-        margin: 0,
-        display: 'flex',
-        flexDirection: 'column'
+        margin: 0
     },
     card: {
         display: 'flex',
